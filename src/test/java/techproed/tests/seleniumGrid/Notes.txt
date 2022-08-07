@@ -1,0 +1,15 @@
+1.LINK: https://www.selenium.dev/documentation/grid/getting_started/
+
+2. Change the directory to SeleniumServer
+open CMD or Terminal
+type cd path of the folder
+if you drag and drop you will find the path then press enter
+
+3. Register to Hub
+  java -jar selenium-server-4.3.0.jar hub
+
+4. Register to Nodes
+   java -jar selenium-server-4.3.0.jar node   --detect-drivers true
+   Once we register node, we can see the driver details in the URl : http://localhost:4444/ui
+
+5. Now we have the servers up and running and now we can create our test cases by using RemoteWebDriver

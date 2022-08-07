@@ -1,0 +1,18 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Blue Rental Car Smoke Test Suit" verbose="1" >
+    <test name="Smoke Test"   >
+        <packages>
+            <package name="techproed.tests.smokeTest" />
+            <package name="techproed.tests.excelautomation" />
+        </packages>
+    </test>
+</suite>
+
+<!--*name="Blue Rental Car Smoke Test Suit" ==> istedigin ismi yaz company ismi
+    *name="Smoke Test" istedigin ismi yaz
+    *package name="techproed.tests.smokeTest"  ==> bu path smoke test sapmak istedigin yer
+    *istedigin kadar packet ekle
+    *verbose ==> consoldeki bilgi miktari
+    *packet, class, grup ne istiyorsan istedigin kadar ekle
+    *ama tek suit olmali!!!!    -->

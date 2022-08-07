@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parallel test suite" parallel="methods" thread-count="2" verbose="1" >
+    <test name="Parallel Test">
+        <classes>
+            <class name="techproed.tests.paraleTest.SearchItem"/>
+            <class name="techproed.tests.paraleTest.CustomerLogin"/>
+        </classes>
+    </test>
+</suite>

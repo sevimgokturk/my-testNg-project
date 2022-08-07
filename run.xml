@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Blue Rental Car Test Suit" verbose="1" >
+    <test name="Run Methods" >
+        <classes>
+
+            <class name="techproed.Day15_Annotations">
+                <methods>
+                    <include name="ztest01" />
+                    <include name="atest05" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
